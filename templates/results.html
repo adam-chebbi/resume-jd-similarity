@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Results</title>
+</head>
+<body>
+    <h1>Similarity Score: {{ similarity }}%</h1>
+    <h2>Matched Keywords:</h2>
+    <p>{{ matched }}</p>
+    <h2>Missing Keywords:</h2>
+    <p>{{ missing }}</p>
+    <h2>Insights Chart:</h2>
+    <img src="{{ chart_path }}" alt="Insights Chart">
+    <a href="/">Back to Home</a>
+</body>
+</html>
